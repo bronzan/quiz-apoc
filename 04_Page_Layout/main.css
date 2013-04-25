@@ -1,0 +1,42 @@
+
+
+header {
+	background-color: #C09C70;
+	width: 100%;
+	height: 100px;
+  clear: both;
+}
+
+h1 {
+	text-align: center;
+	width: 100%;
+}
+
+
+div.column {
+	display: block;
+	position: relative;
+	width: 50%;
+	height: 100px;
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.left {
+	background-color: #88A86C;
+}
+
+.right {
+	background-color: #D57474;
+}
+
+footer {
+	float: left;
+	width: 100%;
+	height: 100px;
+	background-color: #66D9E7;
+	text-align: center;
+	padding-top: 10px;
+}

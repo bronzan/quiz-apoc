@@ -1,0 +1,56 @@
+header {
+	background-color: #E89051;
+	border-top: 2pt solid #CB7C45;
+	border-bottom: 2pt solid #CB7C45;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	display: inline;
+}
+
+h1 {
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	font-family: 'Gabriela', serif
+}
+
+input {
+	position: absolute;
+	top: 30%;
+	right: 1%;
+	width: 100px;
+}
+
+p.button {
+	display: none;
+	position: absolute;
+	left: 1%;
+	font-family: 'Gabriela', serif;
+	font-size: 20px;
+	color: white;
+	-webkit-margin-before: 5px;
+	-webkit-margin-after: 0;
+}
+
+@media all and (max-width: 480px) {
+p.button {
+	display: inline;
+}
+
+input {
+	display: none;
+}
+
+@media all and (min-width: 481px) {
+	p.button {
+		display: none;
+	}
+
+	input {
+		display: inline;
+	}
+}
+}

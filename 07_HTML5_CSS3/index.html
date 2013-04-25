@@ -1,0 +1,37 @@
+<!--     <h1>07 HTML CSS3</h1>
+    <p>Create a feedback form for a website.  This form should include:</p>
+    <ul>
+        <li>Name</li>
+        <li>Dropdown selection for type of message</li>
+        <li>Text area for comment</li>
+        <li>Submit button</li> -->
+
+
+
+<html>
+<head>
+    <title>JBB 07 HTML CSS3</title>
+    <link rel="stylesheet" href="../bp/css/normalize.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="header">
+        <h1>Contact Us</h1>
+    </div>
+    <div id="container">
+<form action="#" method="put">
+    <p>Full Name:<input type="text" name="fullname" maxlength="35" /></p>
+    <p>Type of message:
+        <select name="msgtype">
+            <option value="kudos">Compliment</option>
+            <option value="complaint">Complaint</option>
+            <option value="selfcong">Self-congratulation</option>
+            <option value="musing">Random musing</option>
+            <option value="void">Shout into the void</option>
+        </select></p>
+    <p>Comment:<textarea name="comments"></textarea></p>
+    <input type="submit" name="sendit" value="Submit" id="sendit" /> 
+</form>
+    </div>    
+</body>
+</html>
